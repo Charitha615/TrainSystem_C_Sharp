@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\stations_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\stations_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\stations_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\stations_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\componentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\componentclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\trainsystem\\route_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\route_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\trainsystem\\route_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\route_registation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\dbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\dbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\trainsystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\trainsystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Login.cs",
-              "RelativeDocumentMoniker": "TrainSystem\\Login.cs",
-              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Login.cs",
-              "RelativeToolTip": "TrainSystem\\Login.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAA1AAAA",
+              "DocumentIndex": 1,
+              "Title": "Stations_Registation.cs",
+              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Stations_Registation.cs",
+              "RelativeDocumentMoniker": "TrainSystem\\Stations_Registation.cs",
+              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Stations_Registation.cs",
+              "RelativeToolTip": "TrainSystem\\Stations_Registation.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAwwGEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T08:06:33.564Z",
+              "WhenOpened": "2024-03-23T19:04:22.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Login.cs",
-              "RelativeDocumentMoniker": "TrainSystem\\Login.cs",
-              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Login.cs [Design]",
-              "RelativeToolTip": "TrainSystem\\Login.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Stations_Registation.cs [Design]",
+              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Stations_Registation.cs",
+              "RelativeDocumentMoniker": "TrainSystem\\Stations_Registation.cs",
+              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Stations_Registation.cs [Design]",
+              "RelativeToolTip": "TrainSystem\\Stations_Registation.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T07:23:09.889Z",
+              "WhenOpened": "2024-03-23T18:54:40.507Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ComponentClass.cs",
-              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\ComponentClass.cs",
-              "RelativeDocumentMoniker": "TrainSystem\\ComponentClass.cs",
-              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\ComponentClass.cs",
-              "RelativeToolTip": "TrainSystem\\ComponentClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAAAAAA",
+              "Title": "Route_Registation.cs",
+              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Route_Registation.cs",
+              "RelativeDocumentMoniker": "TrainSystem\\Route_Registation.cs",
+              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Route_Registation.cs",
+              "RelativeToolTip": "TrainSystem\\Route_Registation.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAIwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T07:21:31.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBUtil.cs",
-              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\DBUtil.cs",
-              "RelativeDocumentMoniker": "TrainSystem\\DBUtil.cs",
-              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\DBUtil.cs",
-              "RelativeToolTip": "TrainSystem\\DBUtil.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T07:16:53.531Z",
+              "WhenOpened": "2024-03-23T14:12:40.636Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "TrainSystem\\Form1.cs",
-              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Form1.cs [Design]",
-              "RelativeToolTip": "TrainSystem\\Form1.cs [Design]",
+              "Title": "Route_Registation.cs [Design]",
+              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Route_Registation.cs",
+              "RelativeDocumentMoniker": "TrainSystem\\Route_Registation.cs",
+              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Route_Registation.cs [Design]",
+              "RelativeToolTip": "TrainSystem\\Route_Registation.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T06:23:43.181Z",
+              "WhenOpened": "2024-03-23T14:03:16.491Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin_Dashboard.cs",
+              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Admin_Dashboard.cs",
+              "RelativeDocumentMoniker": "TrainSystem\\Admin_Dashboard.cs",
+              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Admin_Dashboard.cs",
+              "RelativeToolTip": "TrainSystem\\Admin_Dashboard.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wCIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:33:18.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Admin_Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Admin_Dashboard.cs",
+              "RelativeDocumentMoniker": "TrainSystem\\Admin_Dashboard.cs",
+              "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Admin_Dashboard.cs [Design]",
+              "RelativeToolTip": "TrainSystem\\Admin_Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:10:10.68Z",
               "EditorCaption": " [Design]"
             }
           ]

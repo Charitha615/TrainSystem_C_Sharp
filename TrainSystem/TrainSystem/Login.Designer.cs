@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             pictureBox1 = new PictureBox();
             groupBox1 = new GroupBox();
+            button2 = new Button();
             label1 = new Label();
             button1 = new Button();
             password_textBox2 = new TextBox();
@@ -52,6 +53,7 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(password_textBox2);
@@ -63,6 +65,16 @@
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Login Form";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(17, 148);
+            button2.Name = "button2";
+            button2.Size = new Size(92, 33);
+            button2.TabIndex = 5;
+            button2.Text = "User Register";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
@@ -76,7 +88,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(388, 145);
+            button1.Location = new Point(398, 148);
             button1.Name = "button1";
             button1.Size = new Size(92, 33);
             button1.TabIndex = 2;
@@ -112,11 +124,15 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(520, 450);
             Controls.Add(groupBox1);
             Controls.Add(pictureBox1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             groupBox1.ResumeLayout(false);
@@ -133,5 +149,6 @@
         private TextBox username_textBox1;
         private Label label2;
         private Label label1;
+        private Button button2;
     }
 }
