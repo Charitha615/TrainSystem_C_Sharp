@@ -129,6 +129,13 @@ namespace TrainSystem
 
         private void button2_Click(object sender, EventArgs e)
         {
+            
+
+                if (string.IsNullOrWhiteSpace(IDtextBox1.Text))
+            {
+                MessageBox.Show("First you need to select a route.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Exit the method if any required field is empty
+            }
             DBUtil.open_Connection(connection);
 
             sql = $"UPDATE route SET route_name = '{comboBox1.Text}', route_number = '{routenumbertextBox3.Text}' WHERE id = '{IDtextBox1.Text}'";

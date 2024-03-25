@@ -146,7 +146,6 @@
             IDtextBox1.ReadOnly = true;
             IDtextBox1.Size = new Size(89, 23);
             IDtextBox1.TabIndex = 1;
-            IDtextBox1.Text = "Can't Edit ID";
             // 
             // label2
             // 
