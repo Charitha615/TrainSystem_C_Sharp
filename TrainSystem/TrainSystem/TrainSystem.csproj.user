@@ -19,6 +19,9 @@
     <Compile Update="Train_Registation.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="User_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="User_Registation.cs">
       <SubType>Form</SubType>
     </Compile>
