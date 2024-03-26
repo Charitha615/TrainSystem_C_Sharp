@@ -35,5 +35,14 @@ namespace TrainSystem
             // Show the new form
             Stations_Registation.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the new form
+            Train_Registation Train_Registation = new Train_Registation();
+
+            // Show the new form
+            Train_Registation.Show();
+        }
     }
 }

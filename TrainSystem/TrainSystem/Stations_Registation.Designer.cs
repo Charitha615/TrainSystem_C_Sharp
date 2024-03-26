@@ -91,6 +91,7 @@
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(246, 23);
             comboBox1.TabIndex = 12;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label4
             // 
@@ -108,7 +109,6 @@
             IDtextBox1.ReadOnly = true;
             IDtextBox1.Size = new Size(89, 23);
             IDtextBox1.TabIndex = 8;
-            IDtextBox1.Text = "Can't Edit ID";
             // 
             // label2
             // 
@@ -196,6 +196,7 @@
             button3.TabIndex = 12;
             button3.Text = "Delete";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -206,6 +207,7 @@
             button2.TabIndex = 11;
             button2.Text = "Update";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 

@@ -44,9 +44,9 @@ namespace TrainSystem
                 // Set the user ID to the global variable
                 loggedInUserID = GetUserID(loginIdentifier);
 
-                MessageBox.Show("Login successful!"+ loggedInUserID);
+                MessageBox.Show("Login successful!");
                 
-                if(loggedInUserID == 3)
+                if(loggedInUserID == 0)
                 {
                     // Close the current form
                     this.Hide();
@@ -56,6 +56,17 @@ namespace TrainSystem
 
                     // Show the new form
                     Admin_Dashboard.Show();
+                }
+                else
+                {
+                    // Close the current form
+                    this.Hide();
+
+                    // Create an instance of the new form
+                    User_dashboard User_dashboard = new User_dashboard(loggedInUserID);
+
+                    // Show the new form
+                    User_dashboard.Show();
                 }
             }
             else
