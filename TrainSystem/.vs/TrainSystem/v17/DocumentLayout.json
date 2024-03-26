@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\user_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|d:\\program project\\$\\.net\\trainsystem\\trainsystem\\trainsystem\\user_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\trainsystem\\user_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A5DA4E8-5ED8-4AE1-A831-7B723DBD3FF0}|TrainSystem\\TrainSystem.csproj|solutionrelative:trainsystem\\user_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "TrainSystem\\User_dashboard.cs",
               "ViewState": "AQIAAOABAAAAAAAAAAAkwMUBAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:59:03.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T05:59:03.843Z"
             },
             {
               "$type": "Document",
@@ -58,8 +57,7 @@
               "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\User_dashboard.cs [Design]",
               "RelativeToolTip": "TrainSystem\\User_dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:53:13.775Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-25T05:53:13.775Z"
             },
             {
               "$type": "Document",
@@ -71,8 +69,7 @@
               "RelativeToolTip": "TrainSystem\\Train_Registation.cs",
               "ViewState": "AQIAALEAAAAAAAAAAADwvwUBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:49:25.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T05:49:25.381Z"
             },
             {
               "$type": "Document",
@@ -83,8 +80,7 @@
               "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Train_Registation.cs [Design]",
               "RelativeToolTip": "TrainSystem\\Train_Registation.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:49:21.59Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-25T05:49:21.59Z"
             },
             {
               "$type": "Document",
@@ -94,7 +90,7 @@
               "RelativeDocumentMoniker": "TrainSystem\\Login.cs",
               "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Login.cs",
               "RelativeToolTip": "TrainSystem\\Login.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAcwC4AAAAzAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T05:44:15.531Z",
               "EditorCaption": ""
@@ -108,8 +104,7 @@
               "ToolTip": "D:\\Program Project\\$\\.Net\\TrainSystem\\TrainSystem\\TrainSystem\\Login.cs [Design]",
               "RelativeToolTip": "TrainSystem\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T05:44:13.201Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-25T05:44:13.201Z"
             }
           ]
         }
