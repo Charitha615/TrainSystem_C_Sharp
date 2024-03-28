@@ -32,8 +32,8 @@ namespace TrainSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
- 
-            string loginIdentifier = username_textBox1.Text; 
+
+            string loginIdentifier = username_textBox1.Text;
             string password = password_textBox2.Text;
 
             // Check if the login credentials are correct
@@ -45,8 +45,8 @@ namespace TrainSystem
                 loggedInUserID = GetUserID(loginIdentifier);
 
                 MessageBox.Show("Login successful!");
-                
-                if(loggedInUserID == 0)
+
+                if (loggedInUserID == 0)
                 {
                     // Close the current form
                     this.Hide();
@@ -160,7 +160,8 @@ namespace TrainSystem
 
 
 
-            private void button2_Click(object sender, EventArgs e)
+    
+        private void label4_Click(object sender, EventArgs e)
         {
             // Close the current form
             this.Hide();

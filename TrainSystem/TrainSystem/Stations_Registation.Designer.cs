@@ -54,9 +54,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(89, 42);
+            pictureBox1.Location = new Point(0, 1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(196, 111);
+            pictureBox1.Size = new Size(286, 438);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
@@ -64,8 +64,10 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(82, 9);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(362, 9);
             label1.Name = "label1";
             label1.Size = new Size(209, 30);
             label1.TabIndex = 5;
@@ -73,11 +75,11 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.Transparent;
             groupBox1.Controls.Add(comboBox1);
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(IDtextBox1);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(12, 170);
+            groupBox1.ForeColor = Color.White;
+            groupBox1.Location = new Point(292, 54);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(372, 128);
             groupBox1.TabIndex = 7;
@@ -96,6 +98,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.ForeColor = Color.White;
             label4.Location = new Point(13, 25);
             label4.Name = "label4";
             label4.Size = new Size(79, 15);
@@ -104,16 +107,18 @@
             // 
             // IDtextBox1
             // 
-            IDtextBox1.Location = new Point(114, 75);
+            IDtextBox1.Location = new Point(619, 18);
             IDtextBox1.Name = "IDtextBox1";
             IDtextBox1.ReadOnly = true;
-            IDtextBox1.Size = new Size(89, 23);
+            IDtextBox1.Size = new Size(45, 23);
             IDtextBox1.TabIndex = 8;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(13, 75);
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(606, 44);
             label2.Name = "label2";
             label2.Size = new Size(58, 15);
             label2.TabIndex = 7;
@@ -121,13 +126,15 @@
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = Color.Transparent;
             groupBox2.Controls.Add(routenumbertextBox1);
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(routeidtextBox2);
             groupBox2.Controls.Add(label7);
             groupBox2.Controls.Add(selectroutecomboBox2);
             groupBox2.Controls.Add(label5);
-            groupBox2.Location = new Point(12, 322);
+            groupBox2.ForeColor = Color.White;
+            groupBox2.Location = new Point(292, 217);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(372, 150);
             groupBox2.TabIndex = 8;
@@ -189,19 +196,21 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Red;
-            button3.Location = new Point(89, 530);
+            button3.BackColor = Color.Gray;
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(298, 389);
             button3.Name = "button3";
             button3.Size = new Size(92, 33);
             button3.TabIndex = 12;
-            button3.Text = "Delete";
+            button3.Text = "Remove";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(255, 128, 0);
-            button2.Location = new Point(189, 530);
+            button2.BackColor = Color.Gray;
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(396, 389);
             button2.Name = "button2";
             button2.Size = new Size(92, 33);
             button2.TabIndex = 11;
@@ -211,8 +220,8 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Lime;
-            button1.Location = new Point(292, 530);
+            button1.BackColor = Color.FromArgb(255, 128, 0);
+            button1.Location = new Point(572, 389);
             button1.Name = "button1";
             button1.Size = new Size(92, 33);
             button1.TabIndex = 10;
@@ -225,9 +234,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(396, 575);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(696, 440);
             Controls.Add(button3);
             Controls.Add(button2);
+            Controls.Add(label2);
+            Controls.Add(IDtextBox1);
             Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);

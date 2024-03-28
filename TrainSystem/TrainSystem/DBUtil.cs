@@ -13,7 +13,7 @@ namespace TrainSystem
         public static MySqlConnection get_DBConnection()
         {
             //configuring the database connection 
-            MySqlConnection conncetion = new MySqlConnection("server = localhost; database = train_system; uid = root; pwd =  ");
+            MySqlConnection conncetion = new MySqlConnection("server = localhost; database = train_booking_system; uid = root; pwd =  ");
             return conncetion;
         }
 

@@ -43,7 +43,8 @@
             label3 = new Label();
             username_textBox1 = new TextBox();
             label2 = new Label();
-            Login = new Label();
+            label7 = new Label();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -51,9 +52,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(29, 12);
+            pictureBox1.Location = new Point(-2, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(364, 216);
+            pictureBox1.Size = new Size(377, 595);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -61,15 +62,17 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Black", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(125, 241);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI Black", 18F, FontStyle.Bold | FontStyle.Italic);
+            label1.Location = new Point(473, 92);
             label1.Name = "label1";
-            label1.Size = new Size(149, 21);
+            label1.Size = new Size(216, 32);
             label1.TabIndex = 1;
             label1.Text = "User Registration";
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.Transparent;
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(passwordtextBox4);
             groupBox1.Controls.Add(label6);
@@ -81,7 +84,7 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(username_textBox1);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(29, 278);
+            groupBox1.Location = new Point(381, 160);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(364, 299);
             groupBox1.TabIndex = 2;
@@ -179,24 +182,38 @@
             label2.TabIndex = 0;
             label2.Text = "User Name";
             // 
-            // Login
+            // label7
             // 
-            Login.AutoSize = true;
-            Login.ForeColor = Color.Blue;
-            Login.Location = new Point(399, 12);
-            Login.Name = "Login";
-            Login.Size = new Size(37, 15);
-            Login.TabIndex = 3;
-            Login.Text = "Login";
-            Login.Click += Login_Click;
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.Blue;
+            label7.Location = new Point(596, 538);
+            label7.Name = "label7";
+            label7.Size = new Size(43, 17);
+            label7.TabIndex = 11;
+            label7.Text = "Login";
+            label7.Click += label7_Click;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Location = new Point(424, 538);
+            label8.Name = "label8";
+            label8.Size = new Size(166, 15);
+            label8.TabIndex = 10;
+            label8.Text = "You already have an account? ";
             // 
             // User_Registation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(445, 589);
-            Controls.Add(Login);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(757, 589);
+            Controls.Add(label7);
+            Controls.Add(label8);
             Controls.Add(groupBox1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -229,6 +246,7 @@
         private RichTextBox addressrichTextBox1;
         private Label label4;
         private Button button1;
-        private Label Login;
+        private Label label7;
+        private Label label8;
     }
 }

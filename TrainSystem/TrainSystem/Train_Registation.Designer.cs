@@ -81,9 +81,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(371, 35);
+            pictureBox1.Location = new Point(0, -5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(416, 393);
+            pictureBox1.Size = new Size(418, 493);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -91,8 +91,10 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(88, 18);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(535, 9);
             label1.Name = "label1";
             label1.Size = new Size(178, 30);
             label1.TabIndex = 7;
@@ -100,13 +102,15 @@
             // 
             // groupBox1
             // 
+            groupBox1.BackColor = Color.Transparent;
             groupBox1.Controls.Add(endnumericUpDown2);
             groupBox1.Controls.Add(label18);
             groupBox1.Controls.Add(startnumericUpDown1);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(18, 239);
+            groupBox1.ForeColor = Color.White;
+            groupBox1.Location = new Point(783, 61);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(347, 116);
+            groupBox1.Size = new Size(372, 116);
             groupBox1.TabIndex = 9;
             groupBox1.TabStop = false;
             groupBox1.Text = "Train Seat";
@@ -146,6 +150,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.BackColor = Color.Transparent;
             groupBox3.Controls.Add(startroutetextBox2);
             groupBox3.Controls.Add(startroutenumbertextBox1);
             groupBox3.Controls.Add(label7);
@@ -156,9 +161,10 @@
             groupBox3.Controls.Add(label5);
             groupBox3.Controls.Add(startstationidtextBox1);
             groupBox3.Controls.Add(label6);
-            groupBox3.Location = new Point(18, 434);
+            groupBox3.ForeColor = Color.White;
+            groupBox3.Location = new Point(424, 198);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(372, 239);
+            groupBox3.Size = new Size(347, 239);
             groupBox3.TabIndex = 11;
             groupBox3.TabStop = false;
             groupBox3.Text = "Start Station ";
@@ -168,7 +174,7 @@
             startroutetextBox2.Location = new Point(114, 122);
             startroutetextBox2.Name = "startroutetextBox2";
             startroutetextBox2.ReadOnly = true;
-            startroutetextBox2.Size = new Size(246, 23);
+            startroutetextBox2.Size = new Size(208, 23);
             startroutetextBox2.TabIndex = 25;
             // 
             // startroutenumbertextBox1
@@ -176,7 +182,7 @@
             startroutenumbertextBox1.Location = new Point(114, 210);
             startroutenumbertextBox1.Name = "startroutenumbertextBox1";
             startroutenumbertextBox1.ReadOnly = true;
-            startroutenumbertextBox1.Size = new Size(246, 23);
+            startroutenumbertextBox1.Size = new Size(208, 23);
             startroutenumbertextBox1.TabIndex = 24;
             // 
             // label7
@@ -219,7 +225,7 @@
             startstationnamecomboBox2.FormattingEnabled = true;
             startstationnamecomboBox2.Location = new Point(114, 25);
             startstationnamecomboBox2.Name = "startstationnamecomboBox2";
-            startstationnamecomboBox2.Size = new Size(246, 23);
+            startstationnamecomboBox2.Size = new Size(217, 23);
             startstationnamecomboBox2.TabIndex = 12;
             startstationnamecomboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
             // 
@@ -251,6 +257,7 @@
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = Color.Transparent;
             groupBox2.Controls.Add(endroute2textBox3);
             groupBox2.Controls.Add(endroutenumber2textBox4);
             groupBox2.Controls.Add(label10);
@@ -261,7 +268,8 @@
             groupBox2.Controls.Add(label13);
             groupBox2.Controls.Add(endtstationidtextBox1);
             groupBox2.Controls.Add(label14);
-            groupBox2.Location = new Point(414, 434);
+            groupBox2.ForeColor = Color.White;
+            groupBox2.Location = new Point(783, 198);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(372, 239);
             groupBox2.TabIndex = 26;
@@ -356,16 +364,16 @@
             // 
             // groupBox4
             // 
+            groupBox4.BackColor = Color.Transparent;
             groupBox4.Controls.Add(checkBox2weeekend);
             groupBox4.Controls.Add(checkBox1weekday);
             groupBox4.Controls.Add(trainnamecomboBox4);
             groupBox4.Controls.Add(label15);
-            groupBox4.Controls.Add(trainIDtextBox7);
-            groupBox4.Controls.Add(label16);
             groupBox4.Controls.Add(label17);
-            groupBox4.Location = new Point(18, 63);
+            groupBox4.ForeColor = Color.White;
+            groupBox4.Location = new Point(424, 61);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(347, 161);
+            groupBox4.Size = new Size(347, 115);
             groupBox4.TabIndex = 17;
             groupBox4.TabStop = false;
             groupBox4.Text = "Train Details";
@@ -373,7 +381,7 @@
             // checkBox2weeekend
             // 
             checkBox2weeekend.AutoSize = true;
-            checkBox2weeekend.Location = new Point(192, 119);
+            checkBox2weeekend.Location = new Point(192, 77);
             checkBox2weeekend.Name = "checkBox2weeekend";
             checkBox2weeekend.Size = new Size(80, 19);
             checkBox2weeekend.TabIndex = 31;
@@ -383,7 +391,7 @@
             // checkBox1weekday
             // 
             checkBox1weekday.AutoSize = true;
-            checkBox1weekday.Location = new Point(95, 119);
+            checkBox1weekday.Location = new Point(95, 77);
             checkBox1weekday.Name = "checkBox1weekday";
             checkBox1weekday.Size = new Size(79, 19);
             checkBox1weekday.TabIndex = 30;
@@ -402,7 +410,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(6, 123);
+            label15.Location = new Point(6, 81);
             label15.Name = "label15";
             label15.Size = new Size(55, 15);
             label15.TabIndex = 13;
@@ -410,16 +418,18 @@
             // 
             // trainIDtextBox7
             // 
-            trainIDtextBox7.Location = new Point(95, 74);
+            trainIDtextBox7.Location = new Point(1107, 43);
             trainIDtextBox7.Name = "trainIDtextBox7";
             trainIDtextBox7.ReadOnly = true;
-            trainIDtextBox7.Size = new Size(89, 23);
+            trainIDtextBox7.Size = new Size(48, 23);
             trainIDtextBox7.TabIndex = 12;
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(6, 77);
+            label16.BackColor = Color.Transparent;
+            label16.ForeColor = Color.White;
+            label16.Location = new Point(1107, 21);
             label16.Name = "label16";
             label16.Size = new Size(46, 15);
             label16.TabIndex = 11;
@@ -436,8 +446,9 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Red;
-            button3.Location = new Point(492, 690);
+            button3.BackColor = Color.Gray;
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(860, 443);
             button3.Name = "button3";
             button3.Size = new Size(92, 33);
             button3.TabIndex = 29;
@@ -447,8 +458,9 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.FromArgb(255, 128, 0);
-            button2.Location = new Point(592, 690);
+            button2.BackColor = Color.Gray;
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(960, 443);
             button2.Name = "button2";
             button2.Size = new Size(92, 33);
             button2.TabIndex = 28;
@@ -458,8 +470,8 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Lime;
-            button1.Location = new Point(695, 690);
+            button1.BackColor = Color.FromArgb(255, 128, 0);
+            button1.Location = new Point(1063, 443);
             button1.Name = "button1";
             button1.Size = new Size(92, 33);
             button1.TabIndex = 27;
@@ -472,11 +484,14 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(794, 723);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1160, 485);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(groupBox4);
+            Controls.Add(label16);
+            Controls.Add(trainIDtextBox7);
             Controls.Add(groupBox2);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);

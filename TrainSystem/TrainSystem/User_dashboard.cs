@@ -535,6 +535,73 @@ namespace TrainSystem
             }
         }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            // Get the selected date from dateTimePicker1
+            DateTime selectedDate = dateTimePicker1.Value;
+
+            // Determine if the selected date is a weekend or weekday
+            string dayType = selectedDate.DayOfWeek == DayOfWeek.Saturday || selectedDate.DayOfWeek == DayOfWeek.Sunday ? "Weekend" : "Weekday";
+            int avalibleDateValue = dayType == "Weekend" ? 2 : 1;
+
+            // Open connection
+            DBUtil.open_Connection(connection);
+
+
+            string sql = "SELECT train_name FROM train WHERE avalible_date = @AvalibleDateValue";
+
+            // Check if start_station_id is provided
+            if (!string.IsNullOrEmpty(sid.Text))
+            {
+                sql += " AND start_station_id = @StartStationId";
+            }
+
+            // Check if end_station_id is provided
+            if (!string.IsNullOrEmpty(did.Text))
+            {
+                sql += " AND end_station_id = @EndStationId";
+            }
+
+
+            try
+            {
+                MySqlCommand command = new MySqlCommand(sql, connection);
+                command.Parameters.AddWithValue("@AvalibleDateValue", avalibleDateValue);
+
+                // Add start_station_id parameter if provided
+                if (!string.IsNullOrEmpty(sid.Text))
+                {
+                    command.Parameters.AddWithValue("@StartStationId", sid.Text);
+                }
+
+                // Add end_station_id parameter if provided
+                if (!string.IsNullOrEmpty(did.Text))
+                {
+                    command.Parameters.AddWithValue("@EndStationId", did.Text);
+                }
+
+                MySqlDataReader reader = command.ExecuteReader();
+
+                lstSearchResults.Items.Clear(); // Clear existing items
+
+                while (reader.Read())
+                {
+                    string trainName = reader["train_name"].ToString();
+                    lstSearchResults.Items.Add(trainName); // Add train name to ListBox
+                }
+
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                connection.Close(); // Close connection
+            }
+        }
     }
 
 

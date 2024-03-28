@@ -35,6 +35,7 @@
             Searchgrpbox = new GroupBox();
             clearlabel5 = new Label();
             did = new Label();
+            pictureBox2 = new PictureBox();
             sid = new Label();
             endcomboBox2 = new ComboBox();
             label4 = new Label();
@@ -42,7 +43,6 @@
             startcomboBox1 = new ComboBox();
             label2 = new Label();
             dateTimePicker1 = new DateTimePicker();
-            button1 = new Button();
             lstSearchResults = new ListBox();
             groupBox2 = new GroupBox();
             trainidlabel20 = new Label();
@@ -71,35 +71,47 @@
             endstationtextBox1 = new TextBox();
             label16 = new Label();
             groupBox1 = new GroupBox();
-            label19 = new Label();
+            label23 = new Label();
+            pictureBox5 = new PictureBox();
+            label22 = new Label();
+            label21 = new Label();
+            label20 = new Label();
+            pictureBox4 = new PictureBox();
             button4 = new Button();
+            pictureBox3 = new PictureBox();
+            btnGetSelected = new Button();
+            label19 = new Label();
             cus_datedateTimePicker2 = new DateTimePicker();
+            listBoxSelectedNumbers = new ListBox();
             cus_contacttextBox4 = new TextBox();
+            btnSelectNumbers = new Button();
             label18 = new Label();
             cus_addresstextBox3 = new TextBox();
             label17 = new Label();
             cus_nictextBox2 = new TextBox();
+            listBoxNumbers = new ListBox();
             idlabel17 = new Label();
             cus_nametextbox = new TextBox();
             label1 = new Label();
-            listBoxSelectedNumbers = new ListBox();
-            btnGetSelected = new Button();
-            btnSelectNumbers = new Button();
-            listBoxNumbers = new ListBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             Searchgrpbox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 31);
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(213, 229);
+            pictureBox1.Size = new Size(486, 458);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -107,7 +119,9 @@
             // UserName_label
             // 
             UserName_label.AutoSize = true;
-            UserName_label.Location = new Point(3, 9);
+            UserName_label.BackColor = Color.Transparent;
+            UserName_label.ForeColor = Color.White;
+            UserName_label.Location = new Point(1346, 22);
             UserName_label.Name = "UserName_label";
             UserName_label.Size = new Size(62, 15);
             UserName_label.TabIndex = 1;
@@ -116,7 +130,8 @@
             // useridlabel1
             // 
             useridlabel1.AutoSize = true;
-            useridlabel1.Location = new Point(126, 9);
+            useridlabel1.BackColor = Color.Transparent;
+            useridlabel1.Location = new Point(1355, 67);
             useridlabel1.Name = "useridlabel1";
             useridlabel1.Size = new Size(41, 15);
             useridlabel1.TabIndex = 2;
@@ -124,8 +139,10 @@
             // 
             // Searchgrpbox
             // 
+            Searchgrpbox.BackColor = Color.Transparent;
             Searchgrpbox.Controls.Add(clearlabel5);
             Searchgrpbox.Controls.Add(did);
+            Searchgrpbox.Controls.Add(pictureBox2);
             Searchgrpbox.Controls.Add(sid);
             Searchgrpbox.Controls.Add(endcomboBox2);
             Searchgrpbox.Controls.Add(label4);
@@ -133,10 +150,10 @@
             Searchgrpbox.Controls.Add(startcomboBox1);
             Searchgrpbox.Controls.Add(label2);
             Searchgrpbox.Controls.Add(dateTimePicker1);
-            Searchgrpbox.Controls.Add(button1);
-            Searchgrpbox.Location = new Point(254, 12);
+            Searchgrpbox.ForeColor = Color.White;
+            Searchgrpbox.Location = new Point(499, 12);
             Searchgrpbox.Name = "Searchgrpbox";
-            Searchgrpbox.Size = new Size(481, 141);
+            Searchgrpbox.Size = new Size(828, 141);
             Searchgrpbox.TabIndex = 4;
             Searchgrpbox.TabStop = false;
             Searchgrpbox.Text = "Search";
@@ -146,7 +163,7 @@
             // 
             clearlabel5.AutoSize = true;
             clearlabel5.BackColor = Color.DodgerBlue;
-            clearlabel5.Location = new Point(437, 19);
+            clearlabel5.Location = new Point(785, 119);
             clearlabel5.Name = "clearlabel5";
             clearlabel5.Size = new Size(32, 15);
             clearlabel5.TabIndex = 9;
@@ -161,6 +178,18 @@
             did.Size = new Size(0, 15);
             did.TabIndex = 8;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.Transparent;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(785, 19);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(37, 38);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 20;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
             // sid
             // 
             sid.AutoSize = true;
@@ -172,7 +201,7 @@
             // endcomboBox2
             // 
             endcomboBox2.FormattingEnabled = true;
-            endcomboBox2.Location = new Point(301, 73);
+            endcomboBox2.Location = new Point(598, 26);
             endcomboBox2.Name = "endcomboBox2";
             endcomboBox2.Size = new Size(174, 23);
             endcomboBox2.TabIndex = 7;
@@ -181,7 +210,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(232, 77);
+            label4.Location = new Point(529, 30);
             label4.Name = "label4";
             label4.Size = new Size(67, 15);
             label4.TabIndex = 6;
@@ -190,7 +219,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(8, 77);
+            label3.Location = new Point(305, 30);
             label3.Name = "label3";
             label3.Size = new Size(31, 15);
             label3.TabIndex = 5;
@@ -199,7 +228,7 @@
             // startcomboBox1
             // 
             startcomboBox1.FormattingEnabled = true;
-            startcomboBox1.Location = new Point(43, 73);
+            startcomboBox1.Location = new Point(340, 26);
             startcomboBox1.Name = "startcomboBox1";
             startcomboBox1.Size = new Size(174, 23);
             startcomboBox1.TabIndex = 4;
@@ -216,32 +245,23 @@
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(97, 27);
+            dateTimePicker1.Location = new Point(79, 26);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(197, 23);
+            dateTimePicker1.Size = new Size(202, 23);
             dateTimePicker1.TabIndex = 2;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(400, 111);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Find";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // lstSearchResults
             // 
             lstSearchResults.FormattingEnabled = true;
             lstSearchResults.ItemHeight = 15;
-            lstSearchResults.Location = new Point(254, 159);
+            lstSearchResults.Location = new Point(507, 67);
             lstSearchResults.Name = "lstSearchResults";
-            lstSearchResults.Size = new Size(481, 109);
+            lstSearchResults.Size = new Size(577, 79);
             lstSearchResults.TabIndex = 5;
             // 
             // groupBox2
             // 
+            groupBox2.BackColor = Color.Transparent;
             groupBox2.Controls.Add(trainidlabel20);
             groupBox2.Controls.Add(label11);
             groupBox2.Controls.Add(label10);
@@ -251,7 +271,8 @@
             groupBox2.Controls.Add(label6);
             groupBox2.Controls.Add(train_name_textBox1);
             groupBox2.Controls.Add(label5);
-            groupBox2.Location = new Point(754, 22);
+            groupBox2.ForeColor = Color.White;
+            groupBox2.Location = new Point(499, 159);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(337, 131);
             groupBox2.TabIndex = 6;
@@ -344,6 +365,7 @@
             // 
             // groupBox3
             // 
+            groupBox3.BackColor = Color.Transparent;
             groupBox3.Controls.Add(s_station_idlabel20);
             groupBox3.Controls.Add(start_routetnumberextBox3);
             groupBox3.Controls.Add(label13);
@@ -351,7 +373,8 @@
             groupBox3.Controls.Add(label12);
             groupBox3.Controls.Add(startstationtextBox1);
             groupBox3.Controls.Add(label7);
-            groupBox3.Location = new Point(12, 274);
+            groupBox3.ForeColor = Color.White;
+            groupBox3.Location = new Point(499, 305);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(352, 141);
             groupBox3.TabIndex = 7;
@@ -422,6 +445,7 @@
             // 
             // groupBox4
             // 
+            groupBox4.BackColor = Color.Transparent;
             groupBox4.Controls.Add(e_station_id_label20);
             groupBox4.Controls.Add(endroutenumbertextBox4);
             groupBox4.Controls.Add(label14);
@@ -429,7 +453,8 @@
             groupBox4.Controls.Add(label15);
             groupBox4.Controls.Add(endstationtextBox1);
             groupBox4.Controls.Add(label16);
-            groupBox4.Location = new Point(398, 274);
+            groupBox4.ForeColor = Color.White;
+            groupBox4.Location = new Point(873, 305);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(337, 141);
             groupBox4.TabIndex = 18;
@@ -499,37 +524,110 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(label19);
+            groupBox1.BackColor = Color.Transparent;
+            groupBox1.Controls.Add(label23);
+            groupBox1.Controls.Add(pictureBox5);
+            groupBox1.Controls.Add(label22);
+            groupBox1.Controls.Add(label21);
+            groupBox1.Controls.Add(label20);
+            groupBox1.Controls.Add(pictureBox4);
             groupBox1.Controls.Add(button4);
+            groupBox1.Controls.Add(pictureBox3);
+            groupBox1.Controls.Add(btnGetSelected);
+            groupBox1.Controls.Add(label19);
             groupBox1.Controls.Add(cus_datedateTimePicker2);
+            groupBox1.Controls.Add(listBoxSelectedNumbers);
             groupBox1.Controls.Add(cus_contacttextBox4);
+            groupBox1.Controls.Add(btnSelectNumbers);
             groupBox1.Controls.Add(label18);
             groupBox1.Controls.Add(cus_addresstextBox3);
             groupBox1.Controls.Add(label17);
             groupBox1.Controls.Add(cus_nictextBox2);
+            groupBox1.Controls.Add(listBoxNumbers);
             groupBox1.Controls.Add(idlabel17);
             groupBox1.Controls.Add(cus_nametextbox);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(12, 433);
+            groupBox1.ForeColor = Color.White;
+            groupBox1.Location = new Point(0, 464);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(723, 184);
+            groupBox1.Size = new Size(1327, 363);
             groupBox1.TabIndex = 19;
             groupBox1.TabStop = false;
             groupBox1.Text = "Train Book";
             // 
-            // label19
+            // label23
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(8, 140);
-            label19.Name = "label19";
-            label19.Size = new Size(31, 15);
-            label19.TabIndex = 9;
-            label19.Text = "Date";
+            label23.AutoSize = true;
+            label23.BackColor = Color.Transparent;
+            label23.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label23.ForeColor = Color.Red;
+            label23.Location = new Point(928, 308);
+            label23.Name = "label23";
+            label23.Size = new Size(393, 40);
+            label23.TabIndex = 37;
+            label23.Text = "After selection click on select seat numbers button and\r\n click on book button to book your reservation";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(873, 164);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(112, 106);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 36;
+            pictureBox5.TabStop = false;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.BackColor = Color.Transparent;
+            label22.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label22.ForeColor = Color.Red;
+            label22.Location = new Point(453, 328);
+            label22.Name = "label22";
+            label22.Size = new Size(397, 20);
+            label22.TabIndex = 35;
+            label22.Text = "Note: Maximum 5 seats can be booked per NIC number";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.BackColor = Color.Transparent;
+            label21.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.ForeColor = Color.Red;
+            label21.Location = new Point(453, 308);
+            label21.Name = "label21";
+            label21.Size = new Size(387, 20);
+            label21.TabIndex = 34;
+            label21.Text = "Select the seat number you want to book from the list";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.BackColor = Color.Transparent;
+            label20.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label20.ForeColor = Color.Red;
+            label20.Location = new Point(6, 308);
+            label20.Name = "label20";
+            label20.Size = new Size(369, 20);
+            label20.TabIndex = 33;
+            label20.Text = "Click Get Seat Number button to get available seats";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(286, 164);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(112, 106);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 32;
+            pictureBox4.TabStop = false;
             // 
             // button4
             // 
             button4.BackColor = Color.Gold;
-            button4.Location = new Point(621, 140);
+            button4.ForeColor = Color.Black;
+            button4.Location = new Point(1224, 211);
             button4.Name = "button4";
             button4.Size = new Size(92, 33);
             button4.TabIndex = 30;
@@ -537,24 +635,74 @@
             button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(453, 123);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(398, 168);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 31;
+            pictureBox3.TabStop = false;
+            // 
+            // btnGetSelected
+            // 
+            btnGetSelected.ForeColor = Color.Black;
+            btnGetSelected.Location = new Point(1048, 135);
+            btnGetSelected.Name = "btnGetSelected";
+            btnGetSelected.Size = new Size(146, 23);
+            btnGetSelected.TabIndex = 6;
+            btnGetSelected.Text = "Select Seat Numbers";
+            btnGetSelected.UseVisualStyleBackColor = true;
+            btnGetSelected.Click += btnGetSelected_Click;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(10, 90);
+            label19.Name = "label19";
+            label19.Size = new Size(31, 15);
+            label19.TabIndex = 9;
+            label19.Text = "Date";
+            // 
             // cus_datedateTimePicker2
             // 
-            cus_datedateTimePicker2.Location = new Point(63, 134);
+            cus_datedateTimePicker2.Location = new Point(65, 84);
             cus_datedateTimePicker2.Name = "cus_datedateTimePicker2";
             cus_datedateTimePicker2.Size = new Size(200, 23);
             cus_datedateTimePicker2.TabIndex = 8;
             // 
+            // listBoxSelectedNumbers
+            // 
+            listBoxSelectedNumbers.FormattingEnabled = true;
+            listBoxSelectedNumbers.ItemHeight = 15;
+            listBoxSelectedNumbers.Location = new Point(1048, 164);
+            listBoxSelectedNumbers.Name = "listBoxSelectedNumbers";
+            listBoxSelectedNumbers.Size = new Size(146, 139);
+            listBoxSelectedNumbers.TabIndex = 7;
+            // 
             // cus_contacttextBox4
             // 
-            cus_contacttextBox4.Location = new Point(457, 84);
+            cus_contacttextBox4.Location = new Point(1133, 41);
             cus_contacttextBox4.Name = "cus_contacttextBox4";
-            cus_contacttextBox4.Size = new Size(260, 23);
+            cus_contacttextBox4.Size = new Size(188, 23);
             cus_contacttextBox4.TabIndex = 7;
+            // 
+            // btnSelectNumbers
+            // 
+            btnSelectNumbers.ForeColor = Color.Black;
+            btnSelectNumbers.Location = new Point(14, 123);
+            btnSelectNumbers.Name = "btnSelectNumbers";
+            btnSelectNumbers.Size = new Size(146, 23);
+            btnSelectNumbers.TabIndex = 5;
+            btnSelectNumbers.Text = "Get Seat Numbers";
+            btnSelectNumbers.UseVisualStyleBackColor = true;
+            btnSelectNumbers.Click += btnSelectNumbers_Click;
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(358, 88);
+            label18.Location = new Point(1031, 47);
             label18.Name = "label18";
             label18.Size = new Size(96, 15);
             label18.TabIndex = 6;
@@ -562,7 +710,7 @@
             // 
             // cus_addresstextBox3
             // 
-            cus_addresstextBox3.Location = new Point(63, 89);
+            cus_addresstextBox3.Location = new Point(739, 40);
             cus_addresstextBox3.Name = "cus_addresstextBox3";
             cus_addresstextBox3.Size = new Size(274, 23);
             cus_addresstextBox3.TabIndex = 5;
@@ -570,7 +718,7 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(8, 92);
+            label17.Location = new Point(684, 43);
             label17.Name = "label17";
             label17.Size = new Size(49, 15);
             label17.TabIndex = 4;
@@ -578,15 +726,25 @@
             // 
             // cus_nictextBox2
             // 
-            cus_nictextBox2.Location = new Point(457, 39);
+            cus_nictextBox2.Location = new Point(418, 41);
             cus_nictextBox2.Name = "cus_nictextBox2";
             cus_nictextBox2.Size = new Size(260, 23);
             cus_nictextBox2.TabIndex = 3;
             // 
+            // listBoxNumbers
+            // 
+            listBoxNumbers.FormattingEnabled = true;
+            listBoxNumbers.ItemHeight = 15;
+            listBoxNumbers.Location = new Point(14, 152);
+            listBoxNumbers.Name = "listBoxNumbers";
+            listBoxNumbers.SelectionMode = SelectionMode.MultiExtended;
+            listBoxNumbers.Size = new Size(146, 139);
+            listBoxNumbers.TabIndex = 4;
+            // 
             // idlabel17
             // 
             idlabel17.AutoSize = true;
-            idlabel17.Location = new Point(386, 42);
+            idlabel17.Location = new Point(347, 44);
             idlabel17.Name = "idlabel17";
             idlabel17.Size = new Size(65, 15);
             idlabel17.TabIndex = 2;
@@ -608,64 +766,23 @@
             label1.TabIndex = 0;
             label1.Text = "Name";
             // 
-            // listBoxSelectedNumbers
-            // 
-            listBoxSelectedNumbers.FormattingEnabled = true;
-            listBoxSelectedNumbers.ItemHeight = 15;
-            listBoxSelectedNumbers.Location = new Point(754, 433);
-            listBoxSelectedNumbers.Name = "listBoxSelectedNumbers";
-            listBoxSelectedNumbers.Size = new Size(337, 184);
-            listBoxSelectedNumbers.TabIndex = 7;
-            // 
-            // btnGetSelected
-            // 
-            btnGetSelected.Location = new Point(939, 404);
-            btnGetSelected.Name = "btnGetSelected";
-            btnGetSelected.Size = new Size(146, 23);
-            btnGetSelected.TabIndex = 6;
-            btnGetSelected.Text = "Select Seat Numbers";
-            btnGetSelected.UseVisualStyleBackColor = true;
-            btnGetSelected.Click += btnGetSelected_Click;
-            // 
-            // btnSelectNumbers
-            // 
-            btnSelectNumbers.Location = new Point(939, 172);
-            btnSelectNumbers.Name = "btnSelectNumbers";
-            btnSelectNumbers.Size = new Size(146, 23);
-            btnSelectNumbers.TabIndex = 5;
-            btnSelectNumbers.Text = "Get Seat Numbers";
-            btnSelectNumbers.UseVisualStyleBackColor = true;
-            btnSelectNumbers.Click += btnSelectNumbers_Click;
-            // 
-            // listBoxNumbers
-            // 
-            listBoxNumbers.FormattingEnabled = true;
-            listBoxNumbers.ItemHeight = 15;
-            listBoxNumbers.Location = new Point(754, 201);
-            listBoxNumbers.Name = "listBoxNumbers";
-            listBoxNumbers.SelectionMode = SelectionMode.MultiExtended;
-            listBoxNumbers.Size = new Size(337, 184);
-            listBoxNumbers.TabIndex = 4;
-            // 
             // User_dashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1097, 626);
-            Controls.Add(btnGetSelected);
-            Controls.Add(listBoxSelectedNumbers);
-            Controls.Add(btnSelectNumbers);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1429, 853);
             Controls.Add(groupBox1);
             Controls.Add(groupBox4);
             Controls.Add(useridlabel1);
-            Controls.Add(listBoxNumbers);
             Controls.Add(groupBox3);
             Controls.Add(UserName_label);
             Controls.Add(groupBox2);
             Controls.Add(lstSearchResults);
             Controls.Add(Searchgrpbox);
             Controls.Add(pictureBox1);
+            ForeColor = Color.White;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "User_dashboard";
@@ -674,6 +791,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             Searchgrpbox.ResumeLayout(false);
             Searchgrpbox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox3.ResumeLayout(false);
@@ -682,6 +800,9 @@
             groupBox4.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -693,7 +814,6 @@
         private Label useridlabel1;
         private GroupBox Searchgrpbox;
         private ListBox lstSearchResults;
-        private Button button1;
         private Label label2;
         private DateTimePicker dateTimePicker1;
         private Label label3;
@@ -745,5 +865,13 @@
         private Label trainidlabel20;
         private Label s_station_idlabel20;
         private Label e_station_id_label20;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private Label label21;
+        private Label label20;
+        private Label label23;
+        private PictureBox pictureBox5;
+        private Label label22;
     }
 }

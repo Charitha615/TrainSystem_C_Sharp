@@ -89,7 +89,9 @@ namespace TrainSystem
             }
         }
 
-        private void Login_Click(object sender, EventArgs e)
+     
+
+        private void label7_Click(object sender, EventArgs e)
         {
             // Close the current form
             this.Hide();
